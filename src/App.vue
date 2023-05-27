@@ -935,7 +935,7 @@ export default {
         details:
           "I worked as a Full Stack Developer, planning, creating, deploying, maintaining, company systems, We used Laravel SPA with Vue, Vuetify as Front-End.",
         span: "April 6, 2022 - Present",
-        imgC: "../img/hrd.png",
+        imgC: "../public/img/hrd.png",
       },
       {
         company: "Electro Trade LLC",
@@ -944,7 +944,7 @@ export default {
         details:
           "I maked company's documents such as Invoices, Purchase Orders, Packing List docs, and etc.",
         span: "March 2021 - February 2022",
-        imgC: "../img/electro.jpg",
+        imgC: "../public/img/electro.jpg",
       },
       {
         company: "Alta Philippines I.T. Solution and Web Page Design Inc.",
@@ -954,7 +954,7 @@ export default {
         details:
           "I worked as a Fron-End Web Developer, creating a responsive Landing Page for our client using (HTML, CSS, WordPress, JQuery, and JavaScript)",
         span: "June - August 2019",
-        imgC: "../img/alta.jpg",
+        imgC: "../public/img/alta.jpg",
       },
     ],
     dialog: true,
@@ -963,25 +963,25 @@ export default {
         name: "Spa Webpage",
         details:
           "A responsive web page made from (HTML, CSS, JavaScript), only template because this is not deployed online",
-        imgLink: "../img/landing_page/spa.jpg",
+        imgLink: "../public/img/landing_page/spa.jpg",
       },
       {
         name: "Truck Webpage",
         details:
           "A responsive web page made from (HTML, CSS, JavaScript), only template because this is not deployed online",
-        imgLink: "../img/landing_page/truck.jpg",
+        imgLink: "../public/img/landing_page/truck.jpg",
       },
       {
         name: "Wedding Webpage",
         details:
           "A responsive web page made from (HTML, CSS, JavaScript), only template because this is not deployed online",
-        imgLink: "../img/landing_page/wedding.jpg",
+        imgLink: "../public/img/landing_page/wedding.jpg",
       },
       {
         name: "Restaurant Webpage",
         details:
           "A responsive web page made from (HTML, CSS, JavaScript), only template because this is not deployed online",
-        imgLink: "../img/landing_page/resto.jpg",
+        imgLink: "../public/img/landing_page/resto.jpg",
       },
     ],
     togglShowImageDialog: false,
@@ -989,51 +989,51 @@ export default {
     thesisData: [
       {
         name: "Home Page",
-        imgLink: "../img/thesis_website/1.jpg",
+        imgLink: "../public/img/thesis_website/1.jpg",
       },
       {
         name: "Tourism Page",
-        imgLink: "../img/thesis_website/2.jpg",
+        imgLink: "../public/img/thesis_website/2.jpg",
       },
       {
         name: "Procurement Page",
-        imgLink: "../img/thesis_website/3.jpg",
+        imgLink: "../public/img/thesis_website/3.jpg",
       },
       {
         name: "Business Permit Dialog",
-        imgLink: "../img/thesis_website/4.jpg",
+        imgLink: "../public/img/thesis_website/4.jpg",
       },
       {
         name: "Services Page",
-        imgLink: "../img/thesis_website/5.jpg",
+        imgLink: "../public/img/thesis_website/5.jpg",
       },
       {
         name: "Ordinaces Page",
-        imgLink: "../img/thesis_website/6.jpg",
+        imgLink: "../public/img/thesis_website/6.jpg",
       },
       {
         name: "Procurement BIdding",
-        imgLink: "../img/thesis_website/7.jpg",
+        imgLink: "../public/img/thesis_website/7.jpg",
       },
       {
         name: "About Page",
-        imgLink: "../img/thesis_website/8.jpg",
+        imgLink: "../public/img/thesis_website/8.jpg",
       },
       {
         name: "Admin Dashboard",
-        imgLink: "../img/thesis_website/9.jpg",
+        imgLink: "../public/img/thesis_website/9.jpg",
       },
       {
         name: "Admin Accounts",
-        imgLink: "../img/thesis_website/10.jpg",
+        imgLink: "../public/img/thesis_website/10.jpg",
       },
       {
         name: "Admin Ordinance",
-        imgLink: "../img/thesis_website/11.jpg",
+        imgLink: "../public/img/thesis_website/11.jpg",
       },
       {
         name: "Admin Users",
-        imgLink: "../img/thesis_website/12.jpg",
+        imgLink: "../public/img/thesis_website/12.jpg",
       },
     ],
     exteriorData: [
@@ -1041,7 +1041,7 @@ export default {
         name: "Spa Webpage",
         details:
           "A responsive web page made from (HTML, CSS, JavaScript), only template because this is not deployed online",
-        imgLink: "../img/landing_page/spa.jpg",
+        imgLink: "../public/img/landing_page/spa.jpg",
       },
     ],
   }),
@@ -1213,7 +1213,6 @@ body {
 .gmap {
   text-align: center;
 }
-
 
 /* p.dlPStyle {
   --border-color: purple;
